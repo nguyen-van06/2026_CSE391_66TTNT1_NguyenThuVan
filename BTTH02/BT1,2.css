@@ -1,0 +1,79 @@
+/*TODO 1: Dùng universal selector để reset margin và padding về 0 cho toàn trang */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* TODO 2: Dùng type selector cho body */
+body {
+    font-family: Arial;
+    background-color: #f5f5f5;
+}
+/* TODO 3: Dùng ID selector cho #main-header */
+#main-header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+/* TODO 4: Dùng class selector cho .nav-link */
+.nav-link {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px 15px;
+}
+/* TODO 5: Dùng group selector cho h1, h2, h3 */
+h1, h2, h3 {
+   font-family: Arial, sans-serif; 
+   /* Để phông 'Georgia', serif bị xấu */
+}
+/* TODO 6: Dùng descendant selector cho nav a */
+nav a {
+    display: inline-block;
+    margin: 0 10px;
+}
+/* TODO 7: Dùng pseudo-class selector cho a:hover */
+a:hover {
+    color: #ff6600;
+    background-color: #eee;
+}
+/* Bước 1: Reset box-sizing cho toàn trang */
+* {
+    box-sizing: border-box;
+}
+
+/* Bước 2: Style cho .posts container */
+.posts {
+    max-width: 1000px;     /* Giới hạn chiều rộng */
+    margin: 40px auto;     /* Căn giữa + tạo khoảng cách trên dưới */
+    text-align: center;    /* Giúp inline-block không bị lệch */
+}
+
+/* Bước 3: Style cho .card */
+.card {
+    width: 30%;  /* 3 card trên 1 hàng */
+    
+    display: inline-block;
+    vertical-align: top;         /* Canh trên cho đều */
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 8px;
+}
+
+/* Bước 4: Style cho .btn */
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+/* Hover */
+.btn:hover {
+    background: #0056b3;
+}
