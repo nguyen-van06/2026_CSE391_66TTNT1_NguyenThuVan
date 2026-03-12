@@ -1,0 +1,39 @@
+body{
+    font-family: Arial;
+    margin:40px;
+}
+
+input{
+    padding:6px;
+    margin-right:10px;
+}
+
+button{
+    padding:6px 12px;
+    cursor:pointer;
+}
+
+table{
+    margin-top:20px;
+    border-collapse: collapse;
+    width:600px;
+}
+
+th, td{
+    border:1px solid #ccc;
+    padding:8px;
+    text-align:center;
+}
+
+th{
+    background:#f2f2f2;
+}
+
+.yeu{
+    background: yellow;
+}
+
+.stats{
+    margin-top:15px;
+    font-weight:bold;
+}

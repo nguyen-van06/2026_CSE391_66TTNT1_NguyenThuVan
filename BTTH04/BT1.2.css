@@ -1,0 +1,29 @@
+body{
+    font-family: Arial;
+    margin:40px;
+}
+
+table{
+    border-collapse: collapse;
+    width:500px;
+    margin-top:15px;
+}
+
+th,td{
+    padding:8px;
+    text-align:center;
+}
+
+th{
+    background:#eee;
+    cursor:pointer;
+}
+
+.weak{
+    background:yellow;
+}
+
+input,select{
+    padding:5px;
+    margin:5px;
+}

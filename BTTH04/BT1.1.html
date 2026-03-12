@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+<meta charset="UTF-8">
+<title>Bảng điểm sinh viên</title>
+<link rel="stylesheet" href="BT1.1.css">
+</head>
+
+<body>
+    <h2>Quản lý điểm sinh viên</h2>
+    <input type="text" id="name" placeholder="Họ tên sinh viên">
+    <input type="number" id="score" placeholder="Điểm (0-10)">
+    <button id="add">Thêm</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>Họ tên</th>
+                <th>Điểm</th>
+                <th>Xếp loại</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody id="tablebody">
+        </tbody>
+    </table>
+
+    <div class="starts">
+        Tổng sinh viên: <span id="total">0</span>
+        Điểm trung bình: <span id="average">0</span>
+    </div>
+
+    <script src="BT1.1.js"></script>
+</body>
+</html>
